@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/Pods_MashApp.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-MashApp-umbrella.h",
+          'external-contents': "/Users/andro/Documents/MashApp/MashApp/Pods/Target Support Files/Pods-MashApp/Pods-MashApp-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_MashApp-Swift.h",
+          'external-contents': "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/Pods_MashApp.framework/Headers/Pods_MashApp-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/Pods_MashApp.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-MashApp.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/SwiftSocket/SwiftSocket.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftSocket-Swift.h",
+          'external-contents': "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/SwiftSocket/SwiftSocket.framework/Headers/SwiftSocket-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftSocket-umbrella.h",
+          'external-contents': "/Users/andro/Documents/MashApp/MashApp/Pods/Target Support Files/SwiftSocket/SwiftSocket-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/SwiftSocket/SwiftSocket.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftSocket.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

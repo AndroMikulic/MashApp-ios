@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Dosis-Light.otf">
+            <string>Dosis-Light</string>
+        </array>
+        <array key="Dosis-Medium.otf">
+            <string>Dosis-Medium</string>
+        </array>
+        <array key="Dosis-Regular.otf">
+            <string>Dosis-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MashApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFh-1d-h6Z" userLabel="BACKGROUND_TOP">
+                                <rect key="frame" x="0.0" y="44" width="128" height="64"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="4Kg-bB-v5W"/>
+                                    <constraint firstAttribute="height" constant="64" id="eiS-le-u0P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play_icon-web" translatesAutoresizingMaskIntoConstraints="NO" id="WMA-Qa-kje" userLabel="bottomIcon">
+                                <rect key="frame" x="0.0" y="744" width="43" height="34"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="92F-cL-xh5"/>
+                                    <constraint firstAttribute="width" constant="43" id="Mwn-FR-ZkP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="n7H-3B-bNo" userLabel="topLogo">
+                                <rect key="frame" x="5" y="44" width="32" height="64"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="0Ab-0q-uBm"/>
+                                    <constraint firstAttribute="width" constant="32" id="PJB-dq-RF4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDW-Ia-YzE" userLabel="currentlyPlaying">
+                                <rect key="frame" x="36" y="744" width="339" height="34"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="JYQ-MK-B94"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="13"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbJ-Mo-O0j" userLabel="votesLeftLabel">
+                                <rect key="frame" x="343" y="44" width="32" height="64"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="CCf-hO-JKa"/>
+                                    <constraint firstAttribute="width" constant="32" id="YlM-sR-ZtI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="24"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" MashApp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JtW-dJ-5Jk" userLabel="title">
+                                <rect key="frame" x="40" y="44" width="307" height="64"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="fjn-Ba-TNM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDm-VF-fHI" userLabel="BACKGROUND_BOT">
+                                <rect key="frame" x="0.0" y="778" width="375" height="38"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="DRB-HL-0ny"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="13"/>
+                                <color key="textColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CJT-75-xL7" userLabel="songListView">
+                                <rect key="frame" x="0.0" y="138" width="375" height="606"/>
+                                <color key="backgroundColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="separatorColor" red="0.98431372549019602" green="0.75294117647058822" blue="0.1764705882352941" alpha="0.34655928938356162" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="songCell" id="iKc-9K-LL0">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iKc-9K-LL0" id="Qfg-6S-fKF">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="2ID-fZ-LGf"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="d63-bn-m8P"/>
+                                </connections>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_icon" translatesAutoresizingMaskIntoConstraints="NO" id="oda-No-vAz">
+                                <rect key="frame" x="327" y="108" width="48" height="30"/>
+                                <color key="backgroundColor" red="0.36470588235294116" green="0.36470588235294116" blue="0.36470588235294116" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aKv-jd-QNo"/>
+                                    <constraint firstAttribute="width" constant="48" id="xK0-Jx-aWt"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" textAlignment="right" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xQx-gt-FpG">
+                                <rect key="frame" x="0.0" y="108" width="327" height="30"/>
+                                <color key="backgroundColor" red="0.36470588240000001" green="0.36470588240000001" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Qyk-tK-l15"/>
+                                </constraints>
+                                <color key="textColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Dosis-Light" family="Dosis" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="SearchChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="kDG-Ce-XMc"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CJT-75-xL7" secondAttribute="trailing" id="07w-Iy-zC2"/>
+                            <constraint firstItem="n7H-3B-bNo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1Il-Ft-HWu"/>
+                            <constraint firstItem="pFh-1d-h6Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9b7-44-e2g"/>
+                            <constraint firstAttribute="trailing" secondItem="XDm-VF-fHI" secondAttribute="trailing" id="CUs-Mz-d3g"/>
+                            <constraint firstItem="nDW-Ia-YzE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HpX-2N-PZB"/>
+                            <constraint firstItem="xQx-gt-FpG" firstAttribute="top" secondItem="JtW-dJ-5Jk" secondAttribute="bottom" id="Hv6-ev-gti"/>
+                            <constraint firstItem="nDW-Ia-YzE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="I2O-Hp-sb3"/>
+                            <constraint firstItem="JtW-dJ-5Jk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Mmd-Ic-M9j"/>
+                            <constraint firstItem="XDm-VF-fHI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Q78-Up-zhD"/>
+                            <constraint firstItem="JtW-dJ-5Jk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QkJ-cG-wDG"/>
+                            <constraint firstItem="nDW-Ia-YzE" firstAttribute="top" secondItem="CJT-75-xL7" secondAttribute="bottom" id="Rd4-Ga-Ghw"/>
+                            <constraint firstItem="n7H-3B-bNo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="Vmv-9l-VxH"/>
+                            <constraint firstItem="bbJ-Mo-O0j" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Wdt-bK-q19"/>
+                            <constraint firstItem="oda-No-vAz" firstAttribute="leading" secondItem="xQx-gt-FpG" secondAttribute="trailing" id="Wym-vl-2kb"/>
+                            <constraint firstItem="WMA-Qa-kje" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ayz-Ym-ViB"/>
+                            <constraint firstItem="CJT-75-xL7" firstAttribute="top" secondItem="pFh-1d-h6Z" secondAttribute="bottom" constant="30" id="crc-tg-MBo"/>
+                            <constraint firstItem="oda-No-vAz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iQM-DB-TRW"/>
+                            <constraint firstItem="CJT-75-xL7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jN4-4u-3Es"/>
+                            <constraint firstItem="nDW-Ia-YzE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="mXb-qD-2l4"/>
+                            <constraint firstItem="oda-No-vAz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="nyI-af-PH3"/>
+                            <constraint firstItem="pFh-1d-h6Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rkS-Et-1Nz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JtW-dJ-5Jk" secondAttribute="trailing" constant="28" id="s0Q-fR-C3W"/>
+                            <constraint firstItem="XDm-VF-fHI" firstAttribute="top" secondItem="WMA-Qa-kje" secondAttribute="bottom" id="uxw-WX-ce7"/>
+                            <constraint firstItem="bbJ-Mo-O0j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wHk-SA-Hby"/>
+                            <constraint firstItem="xQx-gt-FpG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xea-EM-6rC"/>
+                            <constraint firstItem="WMA-Qa-kje" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xyZ-l8-HuR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="botIcon" destination="WMA-Qa-kje" id="xdu-mj-V31"/>
+                        <outlet property="currentlyPlaying" destination="nDW-Ia-YzE" id="SWx-sY-qQe"/>
+                        <outlet property="placeTitle" destination="JtW-dJ-5Jk" id="lP7-FI-5bq"/>
+                        <outlet property="searchBar" destination="xQx-gt-FpG" id="hM2-Jg-Q0H"/>
+                        <outlet property="searchIcon" destination="oda-No-vAz" id="Ghc-fe-g40"/>
+                        <outlet property="songListView" destination="CJT-75-xL7" id="XF4-ui-8hJ"/>
+                        <outlet property="topIcon" destination="n7H-3B-bNo" id="5D4-1s-Kce"/>
+                        <outlet property="view" destination="8bC-Xf-vdC" id="e4u-Sy-Yzk"/>
+                        <outlet property="votesLeftLabel" destination="bbJ-Mo-O0j" id="iVn-on-m9R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.19999999999999" y="131.52709359605913"/>
+        </scene>
+        <!--Mash App Info View Controller-->
+        <scene sceneID="LX8-wv-fpu">
+            <objects>
+                <viewController storyboardIdentifier="appInfoVC" id="tBT-1y-588" customClass="MashAppInfoViewController" customModule="MashApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kV7-Dn-Okf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TrT-pF-aoT">
+                                <rect key="frame" x="59.666666666666657" y="250" width="255.99999999999997" height="312"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MashApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2Y-9z-sbW">
+                                        <rect key="frame" x="67.333333333333343" y="16" width="121" height="43"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="34"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ERQ-Ab-1uX">
+                                        <rect key="frame" x="96" y="75" width="64" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="4fW-kr-fiK"/>
+                                            <constraint firstAttribute="height" constant="64" id="xjC-40-WL5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music. For Everyone." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncP-2w-rPE" userLabel="Music.For Everyone.">
+                                        <rect key="frame" x="35" y="155" width="186" height="31"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRP-bK-xS4" userLabel="Link">
+                                        <rect key="frame" x="12.333333333333343" y="202" width="231" height="43"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="24"/>
+                                        <state key="normal" title="https://www.mashapp.eu">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="OpenLink:" destination="tBT-1y-588" eventType="touchDragInside" id="1or-ju-kYc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFM-oX-NAw">
+                                        <rect key="frame" x="80" y="261" width="96" height="48"/>
+                                        <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="96" id="axS-ER-7WT"/>
+                                            <constraint firstAttribute="height" constant="48" id="c1O-pZ-p6k"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="22"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="24"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="BackToApp:" destination="tBT-1y-588" eventType="touchUpInside" id="Sdb-EL-jlO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="h2Y-9z-sbW" firstAttribute="centerX" secondItem="TrT-pF-aoT" secondAttribute="centerX" id="0Ek-GA-Aib"/>
+                                    <constraint firstItem="GFM-oX-NAw" firstAttribute="top" secondItem="NRP-bK-xS4" secondAttribute="bottom" constant="16" id="634-Ve-vtN"/>
+                                    <constraint firstItem="ERQ-Ab-1uX" firstAttribute="centerX" secondItem="TrT-pF-aoT" secondAttribute="centerX" id="7TC-K5-2EF"/>
+                                    <constraint firstItem="h2Y-9z-sbW" firstAttribute="centerX" secondItem="TrT-pF-aoT" secondAttribute="centerX" id="AGk-TG-J0U"/>
+                                    <constraint firstItem="ERQ-Ab-1uX" firstAttribute="top" secondItem="h2Y-9z-sbW" secondAttribute="bottom" constant="16" id="MB9-2B-UWg"/>
+                                    <constraint firstItem="NRP-bK-xS4" firstAttribute="centerX" secondItem="TrT-pF-aoT" secondAttribute="centerX" id="UPo-CX-0p9"/>
+                                    <constraint firstItem="NRP-bK-xS4" firstAttribute="top" secondItem="ncP-2w-rPE" secondAttribute="bottom" constant="16" id="Uad-fU-tmR"/>
+                                    <constraint firstItem="GFM-oX-NAw" firstAttribute="centerX" secondItem="TrT-pF-aoT" secondAttribute="centerX" id="edY-CI-V7t"/>
+                                    <constraint firstItem="ncP-2w-rPE" firstAttribute="centerX" secondItem="TrT-pF-aoT" secondAttribute="centerX" id="mNO-VH-rAa"/>
+                                    <constraint firstItem="h2Y-9z-sbW" firstAttribute="top" secondItem="TrT-pF-aoT" secondAttribute="top" constant="16" id="oJB-OL-3E8"/>
+                                    <constraint firstAttribute="width" constant="256" id="rT2-na-Dni"/>
+                                    <constraint firstItem="ncP-2w-rPE" firstAttribute="top" secondItem="ERQ-Ab-1uX" secondAttribute="bottom" constant="16" id="wqh-oh-id9"/>
+                                    <constraint firstAttribute="height" constant="312" id="ywG-gS-ofV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12549019610000001" green="0.12549019610000001" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="TrT-pF-aoT" firstAttribute="centerX" secondItem="kV7-Dn-Okf" secondAttribute="centerX" id="I1A-gC-0eM"/>
+                            <constraint firstItem="TrT-pF-aoT" firstAttribute="centerY" secondItem="kV7-Dn-Okf" secondAttribute="centerY" id="iTj-ry-lN5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CVB-3s-lCt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJR-d1-KTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120.8" y="862.3152709359606"/>
+        </scene>
+        <!--Song Added View Controller-->
+        <scene sceneID="z4e-Kp-4We">
+            <objects>
+                <viewController storyboardIdentifier="songAddedVC" id="GlT-Op-aZ5" customClass="SongAddedViewController" customModule="MashApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kuf-wD-TBI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYC-3a-NmC" userLabel="PopupView">
+                                <rect key="frame" x="59.666666666666657" y="356" width="255.99999999999997" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your song was added!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BF-ZR-Rx2">
+                                        <rect key="frame" x="35.999999999999972" y="34" width="184" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="3ge-eX-yPj"/>
+                                    <constraint firstAttribute="width" constant="256" id="Pxo-en-YsO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="tYC-3a-NmC" firstAttribute="centerX" secondItem="kuf-wD-TBI" secondAttribute="centerX" id="0KJ-o9-OGm"/>
+                            <constraint firstItem="tYC-3a-NmC" firstAttribute="centerY" secondItem="kuf-wD-TBI" secondAttribute="centerY" id="Axh-EQ-Ttq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0Mb-i1-KlW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HN4-Cj-SrI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941.60000000000002" y="129.31034482758622"/>
+        </scene>
+        <!--Song In Queue View Controller-->
+        <scene sceneID="CsY-ST-aek">
+            <objects>
+                <viewController storyboardIdentifier="songInQueueVC" id="fAl-oE-FAN" customClass="SongInQueueViewController" customModule="MashApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RVc-DE-c0Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lq7-li-e2l" userLabel="PopupView">
+                                <rect key="frame" x="59.666666666666657" y="356" width="255.99999999999997" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Song in queue! Choose another one!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLE-FF-O23">
+                                        <rect key="frame" x="41" y="22" width="175" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="VEb-qf-gzB"/>
+                                    <constraint firstAttribute="height" constant="100" id="eiI-zJ-71b"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="lq7-li-e2l" firstAttribute="centerX" secondItem="RVc-DE-c0Y" secondAttribute="centerX" id="OsC-6a-pog"/>
+                            <constraint firstItem="lq7-li-e2l" firstAttribute="centerY" secondItem="RVc-DE-c0Y" secondAttribute="centerY" id="xyp-yi-RV4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jo0-hf-zMz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Ol-Du-Iza" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1688" y="135"/>
+        </scene>
+        <!--Luck Song Added View Controller-->
+        <scene sceneID="kG4-6i-50E">
+            <objects>
+                <viewController storyboardIdentifier="luckSongAddedVC" id="Iur-Y8-hE5" customClass="LuckSongAddedViewController" customModule="MashApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NiM-hF-wAQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BKt-G7-5gd" userLabel="PopupView">
+                                <rect key="frame" x="59.666666666666657" y="316" width="255.99999999999997" height="180"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are lucky! Your song was added AND your point was refunded!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNk-S2-7mX" userLabel="Song in queue! Choose another one!">
+                                        <rect key="frame" x="21" y="23" width="214" height="135"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="FJs-ai-MoY"/>
+                                    <constraint firstAttribute="height" constant="180" id="zn6-eC-bOn"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="BKt-G7-5gd" firstAttribute="centerY" secondItem="NiM-hF-wAQ" secondAttribute="centerY" id="S5G-zi-mk3"/>
+                            <constraint firstItem="BKt-G7-5gd" firstAttribute="centerX" secondItem="NiM-hF-wAQ" secondAttribute="centerX" id="ZWj-Ui-VcL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wmJ-2G-pf4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c8z-Q4-N6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2429.5999999999999" y="128.57142857142858"/>
+        </scene>
+        <!--Out Of Votes View Controller-->
+        <scene sceneID="J5C-R4-OSd">
+            <objects>
+                <viewController storyboardIdentifier="outOfVotesVC" id="PHN-ri-Byl" customClass="OutOfVotesViewController" customModule="MashApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Dm-eR-BPQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Aw-7W-g9J" userLabel="PopupView">
+                                <rect key="frame" x="59.666666666666657" y="261" width="255.99999999999997" height="290"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unfortunately, you're out of votes." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJB-AZ-9LK" userLabel="Song in queue! Choose another one!">
+                                        <rect key="frame" x="21" y="8" width="214" height="73.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your votes refresh 2 hours after you request your first song. If you wish to get them sooner you can watch a video ad." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElO-Jl-oqi" userLabel="Song in queue! Choose another one!">
+                                        <rect key="frame" x="0.0" y="117.33333333333331" width="256" height="96.333333333333314"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Light" family="Dosis" pointSize="19"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCQ-wh-vDm">
+                                        <rect key="frame" x="66" y="234" width="124" height="48"/>
+                                        <color key="backgroundColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="iWl-y6-qo8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="17"/>
+                                        <state key="normal" title="WATCH VIDEO">
+                                            <color key="titleColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="24"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="WatchRewardVideo:" destination="PHN-ri-Byl" eventType="touchUpInside" id="eje-fC-CUI"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="KCQ-wh-vDm" secondAttribute="bottom" constant="8" id="19X-yv-JEM"/>
+                                    <constraint firstAttribute="height" constant="290" id="5EM-YQ-Mx2"/>
+                                    <constraint firstItem="ElO-Jl-oqi" firstAttribute="top" secondItem="gJB-AZ-9LK" secondAttribute="bottom" constant="36" id="5qQ-N1-ZkB"/>
+                                    <constraint firstAttribute="trailing" secondItem="ElO-Jl-oqi" secondAttribute="trailing" id="B0M-aY-Sqb"/>
+                                    <constraint firstItem="KCQ-wh-vDm" firstAttribute="leading" secondItem="5Aw-7W-g9J" secondAttribute="leading" constant="66" id="KGY-o0-LKL"/>
+                                    <constraint firstItem="gJB-AZ-9LK" firstAttribute="top" secondItem="5Aw-7W-g9J" secondAttribute="top" constant="8" id="eB4-Xu-q6D"/>
+                                    <constraint firstItem="gJB-AZ-9LK" firstAttribute="leading" secondItem="5Aw-7W-g9J" secondAttribute="leading" constant="21" id="gKg-Ht-Ti2"/>
+                                    <constraint firstAttribute="width" constant="256" id="kUS-2h-jgX"/>
+                                    <constraint firstItem="ElO-Jl-oqi" firstAttribute="leading" secondItem="5Aw-7W-g9J" secondAttribute="leading" id="wkF-yH-RAF"/>
+                                    <constraint firstAttribute="trailing" secondItem="KCQ-wh-vDm" secondAttribute="trailing" constant="66" id="wr1-5a-JdY"/>
+                                    <constraint firstAttribute="trailing" secondItem="gJB-AZ-9LK" secondAttribute="trailing" constant="21" id="ycX-qi-HNe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="5Aw-7W-g9J" firstAttribute="centerY" secondItem="8Dm-eR-BPQ" secondAttribute="centerY" id="4al-Fa-YAH"/>
+                            <constraint firstItem="5Aw-7W-g9J" firstAttribute="centerX" secondItem="8Dm-eR-BPQ" secondAttribute="centerX" id="rd9-7I-NfC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ygF-Cj-eEJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yRW-cb-8KW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3184.8000000000002" y="130.78817733990149"/>
+        </scene>
+        <!--Currently Playing Info View Controller-->
+        <scene sceneID="uFS-gR-Asb">
+            <objects>
+                <viewController storyboardIdentifier="playingVC" id="Sxh-Ti-E0e" customClass="CurrentlyPlayingInfoViewController" customModule="MashApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H5l-Da-KNM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4fD-fK-Y2a" userLabel="PopupView">
+                                <rect key="frame" x="59.666666666666657" y="281" width="255.99999999999997" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" text="Song playing at the moment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIQ-ES-txr" userLabel="Song in queue! Choose another one!">
+                                        <rect key="frame" x="21" y="8" width="214" height="23"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzR-ON-AGg">
+                                        <rect key="frame" x="86" y="194" width="84" height="48"/>
+                                        <color key="backgroundColor" red="0.19215686269999999" green="0.19215686269999999" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="WnW-WO-1MB"/>
+                                            <constraint firstAttribute="width" constant="84" id="n1z-HH-QW6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Dosis-Medium" family="Dosis" pointSize="17"/>
+                                        <state key="normal" title="SHARE">
+                                            <color key="titleColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="24"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="ShareSong:" destination="Sxh-Ti-E0e" eventType="touchUpInside" id="B9e-A4-Ftp"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Tap the song name to copy it to clipboard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q01-hi-V4b" userLabel="CopiedText">
+                                        <rect key="frame" x="8" y="31" width="240" height="16"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Light" family="Dosis" pointSize="12"/>
+                                        <color key="textColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeJ-dT-WMl" userLabel="SongLabel" propertyAccessControl="none">
+                                        <rect key="frame" x="8" y="47" width="240" height="147"/>
+                                        <fontDescription key="fontDescription" name="Dosis-Regular" family="Dosis" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.75294117650000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="FzR-ON-AGg" firstAttribute="top" secondItem="zeJ-dT-WMl" secondAttribute="bottom" id="2Bd-68-WaW"/>
+                                    <constraint firstItem="oIQ-ES-txr" firstAttribute="leading" secondItem="4fD-fK-Y2a" secondAttribute="leading" constant="21" id="3gP-HF-axs"/>
+                                    <constraint firstItem="FzR-ON-AGg" firstAttribute="centerX" secondItem="4fD-fK-Y2a" secondAttribute="centerX" id="4O7-8y-BKL"/>
+                                    <constraint firstAttribute="height" constant="250" id="5y7-lU-1Sj"/>
+                                    <constraint firstItem="oIQ-ES-txr" firstAttribute="top" secondItem="4fD-fK-Y2a" secondAttribute="top" constant="8" id="FoL-rz-CSH"/>
+                                    <constraint firstAttribute="width" constant="256" id="Igw-is-n0W"/>
+                                    <constraint firstItem="Q01-hi-V4b" firstAttribute="top" secondItem="oIQ-ES-txr" secondAttribute="bottom" id="V5f-fU-Ux0"/>
+                                    <constraint firstAttribute="bottom" secondItem="FzR-ON-AGg" secondAttribute="bottom" constant="8" id="W4M-Mf-7Im"/>
+                                    <constraint firstAttribute="trailing" secondItem="zeJ-dT-WMl" secondAttribute="trailing" constant="8" id="Xdt-oy-j1J"/>
+                                    <constraint firstItem="Q01-hi-V4b" firstAttribute="leading" secondItem="4fD-fK-Y2a" secondAttribute="leading" constant="8" id="XiC-vC-HO6"/>
+                                    <constraint firstItem="zeJ-dT-WMl" firstAttribute="top" secondItem="Q01-hi-V4b" secondAttribute="bottom" id="aG2-xm-DX8"/>
+                                    <constraint firstItem="zeJ-dT-WMl" firstAttribute="leading" secondItem="4fD-fK-Y2a" secondAttribute="leading" constant="8" id="ixX-Mc-afE"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q01-hi-V4b" secondAttribute="trailing" constant="8" id="nU5-ji-VbW"/>
+                                    <constraint firstAttribute="trailing" secondItem="oIQ-ES-txr" secondAttribute="trailing" constant="21" id="nob-UM-CZI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="24"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="4fD-fK-Y2a" firstAttribute="centerX" secondItem="H5l-Da-KNM" secondAttribute="centerX" id="8MG-Kn-8Cw"/>
+                            <constraint firstItem="4fD-fK-Y2a" firstAttribute="centerY" secondItem="H5l-Da-KNM" secondAttribute="centerY" id="tBX-Ax-h3z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0UJ-zy-9k3"/>
+                    </view>
+                    <connections>
+                        <outlet property="shareButton" destination="FzR-ON-AGg" id="b5S-aL-P3E"/>
+                        <outlet property="songLabel" destination="zeJ-dT-WMl" id="R47-6O-u0j"/>
+                        <outlet property="statusText" destination="Q01-hi-V4b" id="3zd-h9-pBC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A8r-WA-UGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3984.8000000000002" y="140.39408866995075"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="512" height="512"/>
+        <image name="play_icon-web" width="512" height="512"/>
+        <image name="search_icon" width="2064" height="2011"/>
+    </resources>
+    <color key="tintColor" red="0.19215686274509802" green="0.19215686274509802" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+</document>

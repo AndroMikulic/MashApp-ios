@@ -1,0 +1,980 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CurrentlyPlayingInfoViewController"
+provides-nominal:
+- "7MashApp34CurrentlyPlayingInfoViewControllerC"
+provides-member:
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", ""]
+provides-dynamic-lookup:
+- "CopySongToClipboard"
+- "ShareSong"
+- "didReceiveMemoryWarning"
+- "shareButton"
+- "songLabel"
+- "statusText"
+- "touchesBegan"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- !private "CGAffineTransform"
+- "CurrentlyPlayingInfoViewController"
+- "Set"
+- !private "StringLiteralType"
+- !private "UIActivityViewController"
+- "UIButton"
+- "UIEvent"
+- "UILabel"
+- !private "UIPasteboard"
+- "UITableView"
+- !private "UITapGestureRecognizer"
+- "UITouch"
+- !private "UIView"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "alpha"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So15CALayerDelegateP", "transform"]
+- !private ["So15CALayerDelegateP", "window"]
+- !private ["SC17CGAffineTransformV", "init"]
+- !private ["s7CVarArgP", "CGAffineTransform"]
+- !private ["s7CVarArgP", "CopySongToClipboard"]
+- !private ["s7CVarArgP", "CurrentlyPlayingInfoViewController"]
+- !private ["s7CVarArgP", "UIActivityViewController"]
+- !private ["s7CVarArgP", "UIPasteboard"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- !private ["s7CVarArgP", "UIView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "alpha"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "general"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "popoverPresentationController"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "presentedViewController"]
+- !private ["s7CVarArgP", "removeAnimate"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "showAnimate"]
+- !private ["s7CVarArgP", "songLabel"]
+- !private ["s7CVarArgP", "songListView"]
+- !private ["s7CVarArgP", "sourceView"]
+- !private ["s7CVarArgP", "statusText"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "transform"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "window"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["7MashApp34CurrentlyPlayingInfoViewControllerC", "Bool"]
+- !private ["7MashApp34CurrentlyPlayingInfoViewControllerC", "CGAffineTransform"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "CopySongToClipboard"]
+- !private ["7MashApp34CurrentlyPlayingInfoViewControllerC", "CurrentlyPlayingInfoViewController"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "Set"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "ShareSong"]
+- !private ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UIActivityViewController"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UIButton"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UIEvent"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UILabel"]
+- !private ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UIPasteboard"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UITableView"]
+- !private ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UITapGestureRecognizer"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UITouch"]
+- !private ["7MashApp34CurrentlyPlayingInfoViewControllerC", "UIView"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "ViewController"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "deinit"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "didReceiveMemoryWarning"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "init"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "mainVC"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "removeAnimate"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "shareButton"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "showAnimate"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "songLabel"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "songListView"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "statusText"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "touchesBegan"]
+- !private ["7MashApp34CurrentlyPlayingInfoViewControllerC", "view"]
+- ["7MashApp34CurrentlyPlayingInfoViewControllerC", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "CGAffineTransform"]
+- !private ["s28CustomDebugStringConvertibleP", "CopySongToClipboard"]
+- !private ["s28CustomDebugStringConvertibleP", "CurrentlyPlayingInfoViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIActivityViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIPasteboard"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "UIView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "alpha"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "general"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "popoverPresentationController"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "presentedViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAnimate"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "showAnimate"]
+- !private ["s28CustomDebugStringConvertibleP", "songLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "songListView"]
+- !private ["s28CustomDebugStringConvertibleP", "sourceView"]
+- !private ["s28CustomDebugStringConvertibleP", "statusText"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "transform"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGAffineTransform"]
+- !private ["s23CustomStringConvertibleP", "CopySongToClipboard"]
+- !private ["s23CustomStringConvertibleP", "CurrentlyPlayingInfoViewController"]
+- !private ["s23CustomStringConvertibleP", "UIActivityViewController"]
+- !private ["s23CustomStringConvertibleP", "UIPasteboard"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "UIView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "alpha"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "general"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "popoverPresentationController"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "presentedViewController"]
+- !private ["s23CustomStringConvertibleP", "removeAnimate"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "showAnimate"]
+- !private ["s23CustomStringConvertibleP", "songLabel"]
+- !private ["s23CustomStringConvertibleP", "songListView"]
+- !private ["s23CustomStringConvertibleP", "sourceView"]
+- !private ["s23CustomStringConvertibleP", "statusText"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "transform"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "window"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CGAffineTransform"]
+- !private ["s9EquatableP", "CopySongToClipboard"]
+- !private ["s9EquatableP", "CurrentlyPlayingInfoViewController"]
+- !private ["s9EquatableP", "UIActivityViewController"]
+- !private ["s9EquatableP", "UIPasteboard"]
+- !private ["s9EquatableP", "UITapGestureRecognizer"]
+- !private ["s9EquatableP", "UIView"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "alpha"]
+- !private ["s9EquatableP", "animate"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "general"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isUserInteractionEnabled"]
+- !private ["s9EquatableP", "popoverPresentationController"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "presentedViewController"]
+- !private ["s9EquatableP", "removeAnimate"]
+- !private ["s9EquatableP", "removeFromSuperview"]
+- !private ["s9EquatableP", "rootViewController"]
+- !private ["s9EquatableP", "showAnimate"]
+- !private ["s9EquatableP", "songLabel"]
+- !private ["s9EquatableP", "songListView"]
+- !private ["s9EquatableP", "sourceView"]
+- !private ["s9EquatableP", "statusText"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "transform"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "window"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CGAffineTransform"]
+- !private ["s8HashableP", "CopySongToClipboard"]
+- !private ["s8HashableP", "CurrentlyPlayingInfoViewController"]
+- !private ["s8HashableP", "UIActivityViewController"]
+- !private ["s8HashableP", "UIPasteboard"]
+- !private ["s8HashableP", "UITapGestureRecognizer"]
+- !private ["s8HashableP", "UIView"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "alpha"]
+- !private ["s8HashableP", "animate"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "first"]
+- !private ["s8HashableP", "general"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isUserInteractionEnabled"]
+- !private ["s8HashableP", "popoverPresentationController"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "presentedViewController"]
+- !private ["s8HashableP", "removeAnimate"]
+- !private ["s8HashableP", "removeFromSuperview"]
+- !private ["s8HashableP", "rootViewController"]
+- !private ["s8HashableP", "showAnimate"]
+- !private ["s8HashableP", "songLabel"]
+- !private ["s8HashableP", "songListView"]
+- !private ["s8HashableP", "sourceView"]
+- !private ["s8HashableP", "statusText"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "transform"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "window"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "CGAffineTransform"]
+- !private ["So8NSCodingP", "CopySongToClipboard"]
+- !private ["So8NSCodingP", "CurrentlyPlayingInfoViewController"]
+- !private ["So8NSCodingP", "UIActivityViewController"]
+- !private ["So8NSCodingP", "UIPasteboard"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- !private ["So8NSCodingP", "UIView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "alpha"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- !private ["So8NSCodingP", "popoverPresentationController"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "presentedViewController"]
+- !private ["So8NSCodingP", "removeAnimate"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "showAnimate"]
+- !private ["So8NSCodingP", "songLabel"]
+- !private ["So8NSCodingP", "songListView"]
+- !private ["So8NSCodingP", "statusText"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "transform"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "window"]
+- !private ["So26NSExtensionRequestHandlingP", "CGAffineTransform"]
+- !private ["So26NSExtensionRequestHandlingP", "CopySongToClipboard"]
+- !private ["So26NSExtensionRequestHandlingP", "CurrentlyPlayingInfoViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIActivityViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIPasteboard"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "UIView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "popoverPresentationController"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "presentedViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "removeAnimate"]
+- !private ["So26NSExtensionRequestHandlingP", "showAnimate"]
+- !private ["So26NSExtensionRequestHandlingP", "songLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "songListView"]
+- !private ["So26NSExtensionRequestHandlingP", "statusText"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CGAffineTransform"]
+- ["So8NSObjectC", "CopySongToClipboard"]
+- !private ["So8NSObjectC", "CurrentlyPlayingInfoViewController"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "ShareSong"]
+- !private ["So8NSObjectC", "UIActivityViewController"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UIPasteboard"]
+- ["So8NSObjectC", "UITableView"]
+- !private ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UITouch"]
+- !private ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "ViewController"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "alpha"]
+- !private ["So8NSObjectC", "animate"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "general"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- ["So8NSObjectC", "mainVC"]
+- !private ["So8NSObjectC", "popoverPresentationController"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "presentedViewController"]
+- ["So8NSObjectC", "removeAnimate"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- !private ["So8NSObjectC", "rootViewController"]
+- ["So8NSObjectC", "shareButton"]
+- ["So8NSObjectC", "showAnimate"]
+- ["So8NSObjectC", "songLabel"]
+- ["So8NSObjectC", "songListView"]
+- !private ["So8NSObjectC", "sourceView"]
+- ["So8NSObjectC", "statusText"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "touchesBegan"]
+- !private ["So8NSObjectC", "transform"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "CGAffineTransform"]
+- !private ["So16NSObjectProtocolP", "CopySongToClipboard"]
+- !private ["So16NSObjectProtocolP", "CurrentlyPlayingInfoViewController"]
+- !private ["So16NSObjectProtocolP", "UIActivityViewController"]
+- !private ["So16NSObjectProtocolP", "UIPasteboard"]
+- !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "UIView"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "alpha"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "general"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isUserInteractionEnabled"]
+- !private ["So16NSObjectProtocolP", "popoverPresentationController"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "presentedViewController"]
+- !private ["So16NSObjectProtocolP", "removeAnimate"]
+- !private ["So16NSObjectProtocolP", "removeFromSuperview"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
+- !private ["So16NSObjectProtocolP", "showAnimate"]
+- !private ["So16NSObjectProtocolP", "songLabel"]
+- !private ["So16NSObjectProtocolP", "songListView"]
+- !private ["So16NSObjectProtocolP", "sourceView"]
+- !private ["So16NSObjectProtocolP", "statusText"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "transform"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "window"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["s3SetV", "first"]
+- !private ["s10SetAlgebraP", "first"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "alpha"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "transform"]
+- !private ["So29UIAccessibilityIdentificationP", "window"]
+- !private ["So24UIActivityViewControllerC", "init"]
+- !private ["So24UIActivityViewControllerC", "popoverPresentationController"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "alpha"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So12UIAppearanceP", "transform"]
+- !private ["So12UIAppearanceP", "window"]
+- !private ["So21UIAppearanceContainerP", "CGAffineTransform"]
+- !private ["So21UIAppearanceContainerP", "CopySongToClipboard"]
+- !private ["So21UIAppearanceContainerP", "CurrentlyPlayingInfoViewController"]
+- !private ["So21UIAppearanceContainerP", "UIActivityViewController"]
+- !private ["So21UIAppearanceContainerP", "UIPasteboard"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UIView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "alpha"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "popoverPresentationController"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "presentedViewController"]
+- !private ["So21UIAppearanceContainerP", "removeAnimate"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "showAnimate"]
+- !private ["So21UIAppearanceContainerP", "songLabel"]
+- !private ["So21UIAppearanceContainerP", "songListView"]
+- !private ["So21UIAppearanceContainerP", "sourceView"]
+- !private ["So21UIAppearanceContainerP", "statusText"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "transform"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "window"]
+- !private ["So18UIContentContainerP", "CGAffineTransform"]
+- !private ["So18UIContentContainerP", "CopySongToClipboard"]
+- !private ["So18UIContentContainerP", "CurrentlyPlayingInfoViewController"]
+- !private ["So18UIContentContainerP", "UIActivityViewController"]
+- !private ["So18UIContentContainerP", "UIPasteboard"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- !private ["So18UIContentContainerP", "UIView"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "popoverPresentationController"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "presentedViewController"]
+- !private ["So18UIContentContainerP", "removeAnimate"]
+- !private ["So18UIContentContainerP", "showAnimate"]
+- !private ["So18UIContentContainerP", "songLabel"]
+- !private ["So18UIContentContainerP", "songListView"]
+- !private ["So18UIContentContainerP", "sourceView"]
+- !private ["So18UIContentContainerP", "statusText"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "addGestureRecognizer"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "isUserInteractionEnabled"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "alpha"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So17UICoordinateSpaceP", "transform"]
+- !private ["So17UICoordinateSpaceP", "window"]
+- !private ["So23UIDataSourceTranslatingP", "alpha"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "alpha"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So13UIDynamicItemP", "transform"]
+- !private ["So13UIDynamicItemP", "window"]
+- !private ["So18UIFocusEnvironmentP", "CGAffineTransform"]
+- !private ["So18UIFocusEnvironmentP", "CopySongToClipboard"]
+- !private ["So18UIFocusEnvironmentP", "CurrentlyPlayingInfoViewController"]
+- !private ["So18UIFocusEnvironmentP", "UIActivityViewController"]
+- !private ["So18UIFocusEnvironmentP", "UIPasteboard"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UIView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "alpha"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "popoverPresentationController"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "presentedViewController"]
+- !private ["So18UIFocusEnvironmentP", "removeAnimate"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "showAnimate"]
+- !private ["So18UIFocusEnvironmentP", "songLabel"]
+- !private ["So18UIFocusEnvironmentP", "songListView"]
+- !private ["So18UIFocusEnvironmentP", "sourceView"]
+- !private ["So18UIFocusEnvironmentP", "statusText"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "transform"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "window"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "alpha"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIFocusItemP", "transform"]
+- !private ["So11UIFocusItemP", "window"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So7UILabelC", "addGestureRecognizer"]
+- !private ["So7UILabelC", "isUserInteractionEnabled"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGAffineTransform"]
+- !private ["So30UIPasteConfigurationSupportingP", "CopySongToClipboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "CurrentlyPlayingInfoViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIActivityViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIPasteboard"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "alpha"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "popoverPresentationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentedViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeAnimate"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "showAnimate"]
+- !private ["So30UIPasteConfigurationSupportingP", "songLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "songListView"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusText"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "transform"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "window"]
+- !private ["So12UIPasteboardC", "general"]
+- !private ["So12UIPasteboardC", "string"]
+- !private ["So31UIPopoverPresentationControllerC", "sourceView"]
+- !private ["So24UIPresentationControllerC", "sourceView"]
+- !private ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CGAffineTransform"]
+- ["So11UIResponderC", "CopySongToClipboard"]
+- !private ["So11UIResponderC", "CurrentlyPlayingInfoViewController"]
+- ["So11UIResponderC", "Set"]
+- ["So11UIResponderC", "ShareSong"]
+- !private ["So11UIResponderC", "UIActivityViewController"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIEvent"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UIPasteboard"]
+- ["So11UIResponderC", "UITableView"]
+- !private ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UITouch"]
+- !private ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "ViewController"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "alpha"]
+- !private ["So11UIResponderC", "animate"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- ["So11UIResponderC", "mainVC"]
+- !private ["So11UIResponderC", "popoverPresentationController"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "presentedViewController"]
+- ["So11UIResponderC", "removeAnimate"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- !private ["So11UIResponderC", "rootViewController"]
+- ["So11UIResponderC", "shareButton"]
+- ["So11UIResponderC", "showAnimate"]
+- ["So11UIResponderC", "songLabel"]
+- ["So11UIResponderC", "songListView"]
+- ["So11UIResponderC", "statusText"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "touchesBegan"]
+- !private ["So11UIResponderC", "transform"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "CGAffineTransform"]
+- !private ["So30UIResponderStandardEditActionsP", "CopySongToClipboard"]
+- !private ["So30UIResponderStandardEditActionsP", "CurrentlyPlayingInfoViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIActivityViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIPasteboard"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "UIView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "alpha"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "popoverPresentationController"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "presentedViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "removeAnimate"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "showAnimate"]
+- !private ["So30UIResponderStandardEditActionsP", "songLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "songListView"]
+- !private ["So30UIResponderStandardEditActionsP", "statusText"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "transform"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So12UIScrollViewC", "alpha"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "alpha"]
+- !private ["So16UIStateRestoringP", "CGAffineTransform"]
+- !private ["So16UIStateRestoringP", "CopySongToClipboard"]
+- !private ["So16UIStateRestoringP", "CurrentlyPlayingInfoViewController"]
+- !private ["So16UIStateRestoringP", "UIActivityViewController"]
+- !private ["So16UIStateRestoringP", "UIPasteboard"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "UIView"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "popoverPresentationController"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "presentedViewController"]
+- !private ["So16UIStateRestoringP", "removeAnimate"]
+- !private ["So16UIStateRestoringP", "showAnimate"]
+- !private ["So16UIStateRestoringP", "songLabel"]
+- !private ["So16UIStateRestoringP", "songListView"]
+- !private ["So16UIStateRestoringP", "statusText"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So11UITableViewC", "alpha"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So7UITouchC", "view"]
+- !private ["So18UITraitEnvironmentP", "CGAffineTransform"]
+- !private ["So18UITraitEnvironmentP", "CopySongToClipboard"]
+- !private ["So18UITraitEnvironmentP", "CurrentlyPlayingInfoViewController"]
+- !private ["So18UITraitEnvironmentP", "UIActivityViewController"]
+- !private ["So18UITraitEnvironmentP", "UIPasteboard"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "UIView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "alpha"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UITraitEnvironmentP", "popoverPresentationController"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "presentedViewController"]
+- !private ["So18UITraitEnvironmentP", "removeAnimate"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "showAnimate"]
+- !private ["So18UITraitEnvironmentP", "songLabel"]
+- !private ["So18UITraitEnvironmentP", "songListView"]
+- !private ["So18UITraitEnvironmentP", "sourceView"]
+- !private ["So18UITraitEnvironmentP", "statusText"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "transform"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "window"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "alpha"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So6UIViewC", "text"]
+- !private ["So6UIViewC", "transform"]
+- !private ["So6UIViewC", "window"]
+- !private ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "CGAffineTransform"]
+- ["So16UIViewControllerC", "CopySongToClipboard"]
+- !private ["So16UIViewControllerC", "CurrentlyPlayingInfoViewController"]
+- ["So16UIViewControllerC", "Set"]
+- ["So16UIViewControllerC", "ShareSong"]
+- !private ["So16UIViewControllerC", "UIActivityViewController"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIEvent"]
+- ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "UIPasteboard"]
+- ["So16UIViewControllerC", "UITableView"]
+- !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "UITouch"]
+- !private ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "ViewController"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "mainVC"]
+- !private ["So16UIViewControllerC", "popoverPresentationController"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "presentedViewController"]
+- ["So16UIViewControllerC", "removeAnimate"]
+- ["So16UIViewControllerC", "shareButton"]
+- ["So16UIViewControllerC", "showAnimate"]
+- ["So16UIViewControllerC", "songLabel"]
+- ["So16UIViewControllerC", "songListView"]
+- ["So16UIViewControllerC", "statusText"]
+- ["So16UIViewControllerC", "touchesBegan"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "alpha"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "transform"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "window"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGAffineTransform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CopySongToClipboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CurrentlyPlayingInfoViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIActivityViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIPasteboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alpha"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "general"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popoverPresentationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentedViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAnimate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showAnimate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "songLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "songListView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sourceView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "transform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC17CGAffineTransformV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "7MashApp34CurrentlyPlayingInfoViewControllerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s3SetV"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So24UIActivityViewControllerC"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- !private "So12UIPasteboardC"
+- !private "So31UIPopoverPresentationControllerC"
+- !private "So24UIPresentationControllerC"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So11UITableViewC"
+- !private "So22UITapGestureRecognizerC"
+- !private "So7UITouchC"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/SwiftSocket/SwiftSocket.framework/Modules/SwiftSocket.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/SwiftSocket/SwiftSocket.framework/Headers/SwiftSocket-umbrella.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAppInstallAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeContentAd.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAdNotificationSource.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdNotificationSource.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediatedNativeAdDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdUnconfirmedClickDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd+ConfirmationClick.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkAdapterProtocol.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkConnectorProtocol.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCorrelator.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAppInstallAdAssetIDs.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeContentAdAssetIDs.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCorrelatorAdLoaderOptions.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPBannerViewOptions.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdAssetIdentifiers.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/SwiftSocket/SwiftSocket.framework/Headers/SwiftSocket-Swift.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADSearchRequest.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Headers/GADAdChoicesView.h"
+- "/Users/andro/Documents/MashApp/MashApp/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks/GoogleMobileAds.framework/Modules/module.modulemap"
+- "/Users/andro/Documents/MashApp/MashApp/DerivedData/MashApp/Build/Products/Debug-iphonesimulator/SwiftSocket/SwiftSocket.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "adc8ddcccb1d0b88433d152de9c0d5c5"

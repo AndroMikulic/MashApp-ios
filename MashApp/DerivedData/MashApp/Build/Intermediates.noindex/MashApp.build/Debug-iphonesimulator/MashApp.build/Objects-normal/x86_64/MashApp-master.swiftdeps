@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "8ab2cbc681f5b1d93b41185ebd7a9213"
+build_time: [1533305461, 223097000]
+inputs:
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/OutOfVotesViewController.swift": [1533248586, 0]
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/SongAddedViewController.swift": [1530826824, 0]
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/CurrentlyPlayingInfoViewController.swift": [1533304959, 0]
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/MashAppInfoViewController.swift": [1533304795, 0]
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/LuckSongAddedViewController.swift": [1532961701, 0]
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/SongInQueueViewController.swift": [1531419265, 0]
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/ServerQuery.swift": [1533305439, 0]
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/ViewController.swift": [1533304895, 0]
+  "/Users/andro/Documents/MashApp/MashApp/MashApp/AppDelegate.swift": [1529934826, 0]

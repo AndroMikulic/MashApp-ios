@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "d74fef5403d544aeee584715b98b4f50"
+build_time: [1533305458, 334750000]
+inputs:
+  "/Users/andro/Documents/MashApp/MashApp/Pods/SwiftSocket/Sources/Result.swift": [1529243455, 0]
+  "/Users/andro/Documents/MashApp/MashApp/Pods/SwiftSocket/Sources/Socket.swift": [1529243455, 0]
+  "/Users/andro/Documents/MashApp/MashApp/Pods/SwiftSocket/Sources/TCPClient.swift": [1529243455, 0]
+  "/Users/andro/Documents/MashApp/MashApp/Pods/SwiftSocket/Sources/UDPClient.swift": [1529243455, 0]
